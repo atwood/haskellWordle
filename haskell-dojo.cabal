@@ -5,11 +5,11 @@ synopsis:           See README for more info
 tested-with:        GHC==8.10.7
 
 description:        
-homepage:           https://github.com/iburzynski/haskell-dojo
+homepage:           https://github.com/iburzynskiatwood/haskelWordle
 license:            MIT
 license-file:       LICENSE
-author:             Ian Burzynski
-maintainer:         23251244+iburzynski@users.noreply.github.com
+author:             
+maintainer:         
 
 category:           Example
 extra-source-files:
@@ -18,23 +18,16 @@ extra-source-files:
     README.md
 
 executable haskell-dojo
-    main-is: Main.hs
+    main-is: main.hs
     other-modules:
-        TTT.A1
-      , TTT.A2
-      , TTT.A3
-      , TTT.A4
-      , TTT.A5
-      , HM.A6
-      , HM.A7
-      , HM.A8
-      , HM.Provided
-      , Sandbox
+        
+       Sandbox
     build-depends:
         base
       , containers
       , directory
       , random
+      , ansi-terminal
     hs-source-dirs:
         app
       , src
